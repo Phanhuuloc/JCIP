@@ -54,7 +54,7 @@ public class FruitShop {
      * FruitShop constructor
      */
     public FruitShop() {
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 10; i++) {
             bowls[0].put(new Fruit(Fruit.FruitType.APPLE));
             bowls[1].put(new Fruit(Fruit.FruitType.ORANGE));
             bowls[2].put(new Fruit(Fruit.FruitType.LEMON));
